@@ -34,8 +34,8 @@ abstract class WFConsumerApplication(context: LagomApplicationContext)
     bindService[WFConsumerService].to(wire[WFConsumerServiceImpl])
   )
 
-  //Bind the HelloService client
-  lazy val helloService = serviceClient.implement[WFService]
+  //Bind the WFService client
+  lazy val wfService = serviceClient.implement[WFService]
 
   lazy val messageRepository = wire[WFRepository]
 
