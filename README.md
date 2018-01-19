@@ -26,5 +26,4 @@ Part 4 - Extend, Test & Deploy Reactive Microservice Architecture
 	Chapter 9: Reactive Microservices With Lagom
 	Chapter 10: Testing Reactive Microservices
 	Chapter 11: Managing Microservices in ConductR
-	Chapter 12: Securing Scala Reactive Microservices
-	Chapter 13: Reactive Design Patterns & Best Practices
+	Chapter 12: Reactive Design Patterns & Best Practices

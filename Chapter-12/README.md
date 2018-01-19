@@ -1,1 +1,1 @@
-Chapter 12: Securing Scala Reactive Microservices
+Chapter 12: Reactive Design Patterns & Best Practices
