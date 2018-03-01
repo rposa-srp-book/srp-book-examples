@@ -1,4 +1,4 @@
-name := "akka-communicate-app"
+name := "akka-actorpath-selection-app"
 
 version := "1.0.0"
 
