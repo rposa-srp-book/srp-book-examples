@@ -2,7 +2,7 @@ package actors
 
 import akka.actor.{ActorRef, ActorSystem, Props}
 
-trait HelloWorldActorController {
+trait HelloWorldActorConnector {
 
   protected def system: ActorSystem
   protected def helloWorldActor: ActorRef
@@ -18,7 +18,7 @@ trait HelloWorldActorController {
   }
 }
 
-object HelloWorldActorController extends HelloWorldActorController {
+object HelloWorldActorConnector extends HelloWorldActorConnector {
   val system = ActorSystem("HelloWorldSystem")
   val helloWorldActor = system.actorOf(Props[HelloWorldActor],"HelloWorldActor")
 }

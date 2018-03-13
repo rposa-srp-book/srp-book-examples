@@ -1,12 +1,11 @@
 package com.packt.publishing.akka.streams.hello
 
-
 import akka.NotUsed
 import akka.actor.ActorSystem
 import akka.stream.ActorMaterializer
 import akka.stream.scaladsl.{Flow, RunnableGraph, Sink, Source}
 
-/*object AkkaStreamsHelloWorldApp4 extends App{
+object AkkaStreamsHelloWorldApp4 extends App{
 
   implicit val actorSystem = ActorSystem("HelloWorldSystem")
   implicit val materializer = ActorMaterializer()
@@ -20,4 +19,4 @@ import akka.stream.scaladsl.{Flow, RunnableGraph, Sink, Source}
   helloWorldGraph.run
 
   actorSystem.terminate
-}*/
+}
